@@ -1,0 +1,26 @@
+/* card main container */
+.Card {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 15px;
+  width: 250px;
+  min-height: 250px;
+  margin: auto;
+}
+
+.Card-image {
+  width: 250px; /* width of container */
+  height: 250px; /* height of container */
+  object-fit: cover;
+  object-position: 0% 0%;
+  margin-bottom: 10px;
+}
+
+.Card-figcaption {
+  padding: 3px;
+}
+
+.bold {
+  font-weight: 700;
+}
